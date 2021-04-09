@@ -207,6 +207,11 @@ textarea {
     li a{
         display:block;
     }
+
+    body {
+        font-size: 10px;
+    }
+
     img {
         width: auto ;
         max-width: 100% ;
