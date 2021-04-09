@@ -32,6 +32,11 @@ devtool:"source-map",
               }
             },
         ]
-    }
+    },
+    devServer: {
+      historyApiFallback: true,
+      contentBase: './',
+      hot: true
+   },
 
 };
