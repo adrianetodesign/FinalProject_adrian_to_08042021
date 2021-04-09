@@ -94,6 +94,6 @@ connection.once('open', ()=>{
     console.log('connected to db');
 
         const server = app.listen(process.env.PORT, ()=>{
-        console.log('listening');
+        console.log('listening on' + process.env.PORT);
     });
 });
