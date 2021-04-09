@@ -19,7 +19,8 @@ There is also a form to submit new articles as any of the characters.
 
 ### Persisting Issues
 - I've kept trying to fix the key error issue for my various pages, but it keeps returning the
-same error in the console not sure how else to fix it at the moment.
+same error in the console, and I'm not sure how else to fix it at the moment.
+- Still having issues with getting my mobile layout where I want it to be.
 
 ### To run the project
 - npm install
