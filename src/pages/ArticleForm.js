@@ -97,7 +97,7 @@ class ArticlesForm extends React.Component {
                 </div>
                 <div>
                     <label htmlFor='content'>Article Body</label> <br />
-                    <textarea name="content" id="content" rows='20' cols='75' ref={this.content}></textarea>
+                    <textarea class="form-control" name="content" id="content" rows='20' cols='75' ref={this.content}></textarea>
                 </div>
             </div>
             <div className="articletext">
