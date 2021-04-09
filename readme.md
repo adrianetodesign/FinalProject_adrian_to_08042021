@@ -3,7 +3,7 @@ Student Name: Adrian To
 Student ID: 100270083
 
 ## Passage Chronicle
-Recently I've been playing a Dungeons & Dragon campaign that I will be running for my friends,
+Recently I've been planning a Dungeons & Dragon campaign that I will be running for my friends,
 and I thought it would be neat to have worldbuilding in the form of various newspaper articles
 detailing their adventures. This here is what I came up with for the project, a website that
 displays all their articles and their basic character info here. Another great thing with using
