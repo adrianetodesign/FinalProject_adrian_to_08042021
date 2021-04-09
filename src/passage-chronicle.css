@@ -211,6 +211,9 @@ textarea {
         line-height: 54px;
         overflow: hidden;
     }
+    .navbar {
+        display: block;
+    }
     ul {
         flex-direction: column;
         justify-content: center;
