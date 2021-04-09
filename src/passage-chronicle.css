@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+
+
+/* Header Stylings */
+header {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px
+}
+
+.app {
+    height:100vh;
+}
+
+.head {
+    text-align: center;
+    position: sticky;
+    top:0;
+    background-color: #f9f7f1;
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    font-size: 22px;
+    padding: 12px 0 12px 0;
+
+}
+
+.headbox {
+    position: relative;
+    width: 12%;
+    left: 10px;
+    border: 3px double #2f2f2f;
+    padding: 10px 15px 10px 15px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0 50px 20px -360px;
+}
+
+.warcount {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar {
+    font-size: 20px;
+    padding: 12px 0 12px 0;
+    background-color: #2f2f2f;
+    display: flex;
+}
+
+.uldiv {
+    display: table;
+    margin: 0 auto;
+    background-color: #2f2f2f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}  
+
+li a {
+  display: inline;
+  color: #f9f7f1;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: #686868;
+}
+
+.newArticleBtn{
+    position: relative;
+    width: 6%;
+    left: 10px;
+    border: 3px solid #2f2f2f;
+}
+/* End header Stylings */
+
+.wrapper {
+    margin: 5em auto;
+  max-width: 1400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Article Stylings */
+.articletext {
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.articleFormLink {
+    text-align: left;
+    position: sticky;
+    top:0;
+}
+
+.postedOn{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+}
+/* End Article Stylings */
+
+
+/* ArticleForm Stylings */
+textarea  {  
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;   
+}
+/* End ArticleForm Stylings */
+
+/* Character Sheet Stylings */
+table, th, td {
+    border: 2px solid #2f2f2f;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.columnWidth {
+    width: 30%;
+}
+
+.imagePadding {
+    padding: 0px;
+}
+
+.profileImage{
+    max-height: 525px;
+}
+
+footer {
+    padding: 12px 0 12px 0;
+    font-size: 8px;
+    text-align: center;
+    color:#f9f7f1;
+    background-color: #2f2f2f;
+}
+/* End Character Sheet Stylings */
+
+textarea {
+    resize: none;
+}
+
+/* Media Queries */
+@media only all and (max-width: 1300px) {
+    .headbox {
+        display: none;
+    }
+}
+
+@media only all and (max-width: 600px) {
+    header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+}
