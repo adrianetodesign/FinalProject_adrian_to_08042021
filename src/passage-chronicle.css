@@ -193,6 +193,10 @@ textarea {
         line-height: 54px;
         overflow: hidden;
     }
+    ul {
+        flex-direction: column;
+        justify-content: center;
+    }
     li a{
         display:block;
     }
