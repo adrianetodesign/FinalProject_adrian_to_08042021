@@ -15,6 +15,10 @@ let articleid = 0;
 app.use(express.static('public'));
 app.use(express.json());
 
+app.get('/*', (req,res)=> {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 app.get('/articles', (req,res)=>{
     Article.find({})
     .then(result=>{
@@ -54,10 +58,6 @@ app.get('/author', (req,res)=>{
         console.log(error).send("There was an error when trying to retrieve the newest author.");
     })
 })
-
-app.get('/*', (req,res)=> {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
 
 app.post('/new', articlesValidators, (req,res)=>{
     const valError = validationResult(req).array();
