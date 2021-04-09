@@ -55,11 +55,8 @@ app.get('/author', (req,res)=>{
     })
 })
 
-app.get('*', (req,res)=> {
-    let error = new Error();
-    error.status = 404;
-    error.data = [];
-    res.status(error.status).send("Error 404, page not found.");
+app.get('/*', (req,res)=> {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.post('/new', articlesValidators, (req,res)=>{
