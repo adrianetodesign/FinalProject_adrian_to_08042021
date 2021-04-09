@@ -36,8 +36,31 @@ app.get('/characters', (req,res)=>{
 })
 
 app.get('/latest_article', (req,res)=>{
-    Article.find({})
+    Article.find().limit(1).sort({$natural:-1})
+    .then(result=>{
+        res.status(200).json(result);
+    })
+    .catch(error=>{
+        console.log(error).send("There was an error when trying to retrieve the latest article.");
+    })
 })
+
+app.get('/author', (req,res)=>{
+    CharacterSheet.find().limit(1).sort({$natural:-1})
+    .then(result=>{
+        res.status(200).json(result);
+    })
+    .catch(error=>{
+        console.log(error).send("There was an error when trying to retrieve the newest author.");
+    })
+})
+
+app.get('*', (req,res)=> {
+    let error = new Error();
+    error.status = 404;
+    error.data = [];
+    res.status(error.status).send("Error 404, page not found.");
+});
 
 app.post('/new', articlesValidators, (req,res)=>{
     const valError = validationResult(req).array();
