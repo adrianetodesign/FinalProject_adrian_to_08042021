@@ -15,10 +15,6 @@ let articleid = 0;
 app.use(express.static('public'));
 app.use(express.json());
 
-app.get('/*', (req,res)=> {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
 app.get('/articles', (req,res)=>{
     Article.find({})
     .then(result=>{
