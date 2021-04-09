@@ -1,6 +1,5 @@
 # CPSC 2600 final project
 Student Name: Adrian To
-Student ID: 100270083
 
 ## Passage Chronicle
 Recently I've been planning a Dungeons & Dragon campaign that I will be running for my friends,
