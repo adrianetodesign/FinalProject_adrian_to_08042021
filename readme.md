@@ -1,6 +1,12 @@
 # CPSC 2600 final project
 Student Name: Adrian To
 
+![Index Page](https://github.com/adrianetodesign/FINALPROJECT_ADRIAN_TO_08042021/blob/master/docs/Index.png)
+
+![Characters Page](https://github.com/adrianetodesign/FINALPROJECT_ADRIAN_TO_08042021/blob/master/docs/Characters.png)
+
+![Articles Page](https://github.com/adrianetodesign/FINALPROJECT_ADRIAN_TO_08042021/blob/master/docs/Articles.png)
+
 ## Passage Chronicle
 Recently I've been planning a Dungeons & Dragon campaign that I will be running for my friends,
 and I thought it would be neat to have worldbuilding in the form of various newspaper articles
